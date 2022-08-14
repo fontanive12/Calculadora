@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(24, 32, 41);
+}
+
+h1 {
+    color: rgb(236, 227, 227);
+    text-align: center;
+}
+
+.main {
+    max-width: 275px;
+    min-width: 260px;
+    width: 240px;
+    max-height: 320px;
+    min-height: 300px;
+    border: solid 1px rgb(182, 190, 190);
+    border-radius: 20px;
+    border: solid 1px rgb(222, 241, 241);
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.calculadora {
+    /* display: inline-flex; */
+    max-width: 280px;
+    min-width: 260px;    
+}
+
+.linha {
+    max-width: 260px;
+    min-width: 220px;
+    scroll-margin-top: auto;
+    margin-left: 0;
+    margin: 2px 2px 2px 2px;
+}
+.linha2 {
+    /* max-width: 190px;
+    min-width: 100px; */
+    max-width: 260px;
+    min-width: 220px;
+    height: 40px;
+    
+    margin: 4px 2px 4px 2px;
+}
+
+.maincolor, 
+.result {
+    width: 60px;
+    height: 40px;
+    border: solid 1px rgb(182, 190, 190);
+    background-color: rgb(226, 236, 236);
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+
+.display {
+    max-width: 240px;
+    min-width: 232px;
+    height: 70px;
+    border: solid 1px rgb(182, 190, 190);
+    background-color: rgb(226, 236, 236);
+    margin: 10px;
+    color: #000;
+}
+
+.zero {
+    width: 123px;
+}
+
+.result {
+    height: 40px;
+    /* margin-bottom: -100px; */
+}
+
+.c {
+    border: solid 1px rgb(182, 190, 190);
+    background-color: rgb(226, 236, 236);
+    text-align: center;
+    width: 180px;    
+    height: 38px;
+    /* margin-left: 5px; */
+    margin: 2px 0px 2px 2px;
+    /* margin-left: 2px; */
+    /* margin-right: 66px; */
+}
+
